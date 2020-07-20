@@ -28,11 +28,9 @@
             img {
                 width: 25%;
                 border-radius: 50%;
-                
-            }  
+            }
             a{
                 text-decoration: none;
-                color: black;
             }
             .heading{
                 font-weight: 200;
@@ -53,9 +51,10 @@
             </h1>
             <img  class="animate__animated animate__fadeInDown" src=website.jpg alt="Profile Picture">
             <a href="#block"><span class="animate__animated animate__fadeIn" 
-                style='font-size:4em;'>&#8609;</span></a>
+                style='font-size:4em;
+                color: black;'>&#8609;</span></a>
         </div>
-        <div id="block" class="bio">
+        <div id="block" class="bio" style="margin-bottom: 7em;">
             <h2 class="heading">
                 Howdy! &#128075
             </h2>
@@ -86,7 +85,9 @@
             </p>
         </div>
         <footer>
-
+            <p style="font-size: smaller; text-align: center;">
+                This site was made with OSS tools: Styles - Wing CSS | Smooth Scrolling - Jump.js | Animations - Animate.css
+            </p>
         </footer>
     </body>
 </html>
