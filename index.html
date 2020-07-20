@@ -40,11 +40,13 @@
                 font-weight: 200;
                 text-transform: uppercase;
             }
-            .bio{
+            #bio-container{
                 align-items: left;
                 margin-left: 3em;
                 margin-right: 2.5em;
                 margin-bottom: 3em;
+                display: flex;
+                flex-direction: column;
             }
         </style>
     </head>
@@ -58,11 +60,11 @@
             
                 <img  class="animate__animated animate__fadeInDown" src=website.jpg alt="Profile Picture">
         
-                <a href="#block"><span class="animate__animated animate__fadeIn" 
+                <a href="#bio-container"><span class="animate__animated animate__fadeIn" 
                     style='font-size:4em;
                     color: black;'>&#8609;</span></a>
             </div>
-            <div id="block" class="bio" style="margin-bottom: 7em; height: 80%;">
+            <div id="bio-container" style="margin-bottom: 7em; height: 80%;">
                 <h2 class="heading">
                     Howdy! &#128075
                 </h2>
