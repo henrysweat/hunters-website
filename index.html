@@ -7,17 +7,21 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
         />
         <style>
+            #parent-container {
+                display: flex;
+                flex-direction: column;  
+            }
             #header-container {
                 display: flex;
+                flex-direction: column;
                 height: 70%;
                 align-items: center;
                 justify-content: center;
-                flex-direction: column;  
-                margin-bottom: 12em;
+                margin-bottom: 1em;
             }
             h1 {
                 font-size: 12vh;
-                margin-top: 3em;
+                margin-top: 1.5em;
                 text-align: center;
             }
             h2 {
@@ -45,44 +49,49 @@
         </style>
     </head>
     <body>
-        <div id="header-container">
-            <h1 class="animate__animated animate__fadeInDown">
-                HUNTER WIEDER
-            </h1>
-            <img  class="animate__animated animate__fadeInDown" src=website.jpg alt="Profile Picture">
-            <a href="#block"><span class="animate__animated animate__fadeIn" 
-                style='font-size:4em;
-                color: black;'>&#8609;</span></a>
-        </div>
-        <div id="block" class="bio" style="margin-bottom: 7em;">
-            <h2 class="heading">
-                Howdy! &#128075
-            </h2>
-            <p>
-                My name is Hunter Wieder, and I am a recent graduate of 
-                Florida State University's Master of Business 
-                Administration program with a concentration in 
-                Marketing and Supply Chain Management. Borned and raised 
-                in Miami, FL, I am looking to discover, explore, and leverage 
-                key business insights in the Athletic or Oceanographic space.
-            </p>
-            <p>
-                During my year of 
-                study, I served as a Marketing Consultant to the Women's 
-                Basketball team where I performed strategic analysis of 
-                marketing operations and achieved a 171% increase in Season 
-                Ticket Sales. In addition, I held the Vice President 
-                position of the FSU MBA program and placed 2nd overall in 
-                the NC State Grand Business Challenge.
-            </p>
-            <p>
-                My hobbies include fishing, swimming, and graphic design. 
-                Check out my portfolio here!
-            </p>
-            <p>
-                Connect with me on <a href="https://www.linkedin.com/in/hunter-wieder-mba-321236127/">
-                    Linkedin</a>, and find my resume <a href="hunter resume.pdf">here</a>!
-            </p>
+        <div id="parent-container">
+            <div id="header-container">
+            
+                <h1 class="animate__animated animate__fadeInDown">
+                    HUNTER WIEDER
+                </h1>
+            
+                <img  class="animate__animated animate__fadeInDown" src=website.jpg alt="Profile Picture">
+        
+                <a href="#block"><span class="animate__animated animate__fadeIn" 
+                    style='font-size:4em;
+                    color: black;'>&#8609;</span></a>
+            </div>
+            <div id="block" class="bio" style="margin-bottom: 7em; height: 80%;">
+                <h2 class="heading">
+                    Howdy! &#128075
+                </h2>
+                <p>
+                    My name is Hunter Wieder, and I am a recent graduate of 
+                    Florida State University's Master of Business 
+                    Administration program with a concentration in 
+                    Marketing and Supply Chain Management. Borned and raised 
+                    in Miami, FL, I am looking to discover, explore, and leverage 
+                    key business insights in the Athletic or Oceanographic space.
+                </p>
+                <p>
+                    During my year of 
+                    study, I served as a Marketing Consultant to the Women's 
+                    Basketball team where I performed strategic analysis of 
+                    marketing operations and achieved a 171% increase in Season 
+                    Ticket Sales. In addition, I held the Vice President 
+                    position of the FSU MBA program and placed 2nd overall in 
+                    the NC State Grand Business Challenge.
+                </p>
+                <p>
+                    My hobbies include fishing, swimming, and graphic design. 
+                    Check out my portfolio here!
+                </p>
+                <p>
+                    Connect with me on <a href="https://www.linkedin.com/in/hunter-wieder-mba-321236127/">
+                        Linkedin</a>, and find my resume <a href="hunter resume.pdf">here</a>!
+                </p>
+            </div>
         </div>
         <footer>
             <p style="font-size: smaller; text-align: center;">
