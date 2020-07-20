@@ -48,6 +48,63 @@
                 display: flex;
                 flex-direction: column;
             }
+            span{
+                font-size:4em;
+                color: black;
+            }
+            @media only screen 
+            and (device-width : 375px) 
+            and (device-height : 812px) 
+            and (-webkit-device-pixel-ratio : 3) {
+                #parent-container {
+                display: flex;
+                flex-direction: column;  
+                }
+                #header-container {
+                display: flex;
+                flex-direction: column;
+                height: 70%;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 1em;
+                }
+                h1 {
+                font-size: 10vh;
+                margin-top: 1.5em;
+                text-align: center;
+                }
+                span{
+                font: size 10em;
+                color: black;
+                }
+                h2 {
+                    justify-content: left;
+                    font-size: 3.6rem;
+                    line-height: 1.25;
+                }
+                img {
+                    width: 25%;
+                    border-radius: 50%;
+                }
+                a{
+                    text-decoration: none;
+                }
+                .heading{
+                    font-weight: 200;
+                    text-transform: uppercase;
+                }
+                #bio-container{
+                    align-items: left;
+                    margin-left: 3em;
+                    margin-right: 2.5em;
+                    margin-bottom: 3em;
+                    display: flex;
+                    flex-direction: column;
+                }
+                p {
+                    font-size: 10px;
+                }
+            }
         </style>
     </head>
     <body>
@@ -60,9 +117,8 @@
             
                 <img  class="animate__animated animate__fadeInDown" src=website.jpg alt="Profile Picture">
         
-                <a href="#bio-container"><span class="animate__animated animate__fadeIn" 
-                    style='font-size:4em;
-                    color: black;'>&#8609;</span></a>
+                <a href="#bio-container"><span class="animate__animated animate__fadeIn"
+                    >&#8609;</span></a>
             </div>
             <div id="bio-container" style="margin-bottom: 7em; height: 80%;">
                 <h2 class="heading">
